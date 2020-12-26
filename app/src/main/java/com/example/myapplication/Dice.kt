@@ -1,7 +1,10 @@
 package com.example.myapplication
 
+import android.util.Log
+
 class Dice (val numSides:Int){
     fun roll():Int{
         return (0..numSides).random()
+        Log.d("","")
     }
 }
