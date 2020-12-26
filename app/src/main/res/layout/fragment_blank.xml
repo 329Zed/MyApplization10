@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FrameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".BlankFragment1">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="visible">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="396dp"
+            android:layout_height="370dp"
+            android:background="#03A9F4"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.666"
+            app:layout_constraintStart_toStartOf="parent">
+
+            <Button
+                android:id="@+id/rollButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="开始"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toEndOf="@+id/rollButton"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout"
+            android:layout_width="392dp"
+            android:layout_height="116dp"
+            android:background="#03A9F4"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/imageView_ai_1"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/wenhao" />
+
+            <ImageView
+                android:id="@+id/imageView_ai_2"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/wenhao" />
+
+            <ImageView
+                android:id="@+id/imageView_ai_3"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/wenhao" />
+
+            <ImageView
+                android:id="@+id/imageView_ai_4"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/wenhao" />
+
+            <ImageView
+                android:id="@+id/imageView_ai_5"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:background="#03A9F4"
+                android:src="@drawable/wenhao" />
+
+            <ImageView
+                android:id="@+id/imageView_ai_6"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/wenhao" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout4"
+            android:layout_width="395dp"
+            android:layout_height="126dp"
+            android:background="#03A9F4"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+            <ImageView
+                android:id="@+id/imageView_1"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/wenhao" />
+
+            <ImageView
+                android:id="@+id/imageView_2"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/wenhao" />
+
+            <ImageView
+                android:id="@+id/imageView_3"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/wenhao" />
+
+            <ImageView
+                android:id="@+id/imageView_4"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/wenhao" />
+
+            <ImageView
+                android:id="@+id/imageView_5"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/wenhao" />
+
+            <ImageView
+                android:id="@+id/imageView_6"
+                android:layout_width="110dp"
+                android:layout_height="80dp"
+                android:layout_weight="1"
+                android:src="@drawable/wenhao" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout2"
+            android:layout_width="395dp"
+            android:layout_height="135dp"
+            android:background="#03A9F4"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout4">
+
+            <ImageView
+                android:id="@+id/imageView01"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/dice_6" />
+
+            <ImageView
+                android:id="@+id/imageView02"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/dice_6" />
+
+            <ImageView
+                android:id="@+id/imageView03"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/dice_6" />
+
+            <ImageView
+                android:id="@+id/imageView04"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/dice_6" />
+
+            <ImageView
+                android:id="@+id/imageView05"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/dice_6" />
+
+            <ImageView
+                android:id="@+id/imageView06"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:src="@drawable/dice_6" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearLayout5"
+            android:layout_width="397dp"
+            android:layout_height="82dp"
+            android:background="#03A9F4"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/linearLayout2">
+
+            <ImageButton
+                android:id="@+id/imageButton1"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/queding" />
+
+            <ImageButton
+                android:id="@+id/imageButton2"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/queding" />
+
+            <ImageButton
+                android:id="@+id/imageButton3"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/queding" />
+
+            <ImageButton
+                android:id="@+id/imageButton4"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/queding" />
+
+            <ImageButton
+                android:id="@+id/imageButton5"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/queding" />
+
+            <ImageButton
+                android:id="@+id/imageButton6"
+                android:layout_width="100dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:src="@drawable/queding" />
+
+        </LinearLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
